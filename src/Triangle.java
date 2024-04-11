@@ -22,6 +22,7 @@ public class Triangle {
 					return new int[] {costatA, costatB, costatC};
 				}
 			}
+			i++;
 		}
 		return null;
 	}
