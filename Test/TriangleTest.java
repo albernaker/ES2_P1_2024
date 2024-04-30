@@ -10,7 +10,7 @@ class TriangleTest {
     @BeforeAll
     static void setUP() {
     }
-    
+
 
     private int[] costats = new int[] {2,4,2,3,4};
     @BeforeAll
@@ -18,9 +18,13 @@ class TriangleTest {
 
     }
     @Test
-    void test_Equilater(){
-        int[] result = Triangle.trobaTriangle(Triangle.Tipus.Equilater,costats);
-        int[] resperat = new int[]{2,2,2};
+    void triangle_Equilater() {
+        Triangle.Tipus elTipus = Triangle.Tipus.Equilater;
+        int[] costats = {};
+        int[] valorEsperat = null;
+        int[] valorObtingut = Triangle.trobaTriangle(elTipus, costats);
+
+        assertArrayEquals(valorEsperat, valorObtingut);
     }
     @Test
     void test(){
