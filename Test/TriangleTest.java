@@ -6,19 +6,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TriangleTest {
-
-    @BeforeAll
-    static void setUP() {
-    }
-
-
-    private int[] costats = new int[] {2,4,2,3,4};
-    @BeforeAll
-    static void setUpBeforeAll() {
-
-    }
     @Test
-    void triangle_EquilaterMalament() {
+    void triangle_test1() {
         Triangle.Tipus elTipus = Triangle.Tipus.Equilater;
         int[] costats = {};
         int[] valorEsperat = null;

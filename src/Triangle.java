@@ -12,7 +12,7 @@ public class Triangle {
 			throw new IllegalArgumentException("Paràmetre d'entrada null");
 		}
 		int i = 0, costatA, costatB, costatC;
-		while( i  + 2< costats.length )
+		while( i  + 2 < costats.length )
 		{
 			costatA = costats[i];
 			costatB = costats[i+1];
